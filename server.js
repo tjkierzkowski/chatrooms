@@ -62,4 +62,9 @@ server.listen(listen_port, function()	{
 	console.log("Server listening on port " + listen_port + ".");
 });
 
+/*create the chat server*/
+var chatServer = require('./lib/chat_server');
+chat_server.listen(server);
+
+
 
