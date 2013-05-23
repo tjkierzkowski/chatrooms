@@ -59,8 +59,7 @@ var server = http.createServer(function(request, response){
 
 /*evoking the server at port 3000*/
 server.listen(listen_port, function()	{
-	console.log("Server listening on port 3000.");	
-	//console.log("Server listening on port " + listen_port + ".");
+	console.log("Server listening on port " + listen_port + ".");
 });
 
 
